@@ -27,10 +27,14 @@ Pronto quando:
 
 ### V-02 — Filtro por curso
 
-Implementar filtro por curso na barra lateral do mural.
+**Como** professor,
+**Quero** filtrar as  ideias do mural pelo curso do autor,
+**Para** para encontrar facilmente projetos e pessoas de áreas específicas.
 
 Pronto quando:
-- o filtro estiver funcionando.
+- Houver uma lista suspensa ou conjunto de botões com as opções de cursos;
+- Ao selecionar um curso a tela atualiza (sem recarregar a página) para mostrar apenas as ideias de pessoas do curso escolhido;
+- Se um curso for selecionado e não houver ideias publicadas por alunos daquele curso exibir a mensagem: "Nenhuma ideia encontrada para este curso no momento";
 
 ---
 
@@ -51,14 +55,16 @@ Pronto quando:
 
 ### V-04 — Encontrar ideias que combinam comigo
 
-**Como** visitante do mural,
-**quero** encontrar rapidamente as ideias que combinam comigo,
-**para** não perder tempo.
+**Como** aluno buscando projetos
+**quero** encontrar rapidamente as ideias que cruzem com os meus interesses cadastrados,
+**para** encontrar e descobrir rapidamente iniciativas onde minhas habilidades são úteis.
 
 Pronto quando:
-- a interface estiver amigável;
-- a busca for rápida;
-- o resultado for relevante.
+- uma aba ou seção específica chamada "Recomendadas para mim";
+- O sistema comparar as tags cadastradas no perfil do usuário com as tags das ideias publicadas;
+- A lista exibir apenas ideias que tenham pelo menos uma tag em comum com o perfil do usuário;
+- As ideias forem ordenadas por relevância: aquelas com o maior número de tags aparecem primeiro;
+- Se o usuário não tiver interesses cadastrados no perfil, exibir um aviso sugerindo: "Adicione interesses ao seu perfil para receber recomendações de ideias", com um link para a edição de perfil.
 
 ---
 
@@ -76,15 +82,21 @@ Pronto quando:
 - trocar a pessoa em "navegando como" muda corretamente o que aparece como "meus grupos".
 
 ---
-
+-----------------------------------
 ### V-06 — Estados da ideia
 
-**Como** usuário,
-**quero** que as ideias tenham estados,
-**para** que os estados das ideias fiquem registrados.
+**Como** Autor de uma ideia,
+**quero** poder mudar o status da minha publicação (ex: Aberta, Fechada, Em andamento),
+**para** que outros saibam se ainda estou aceitando participantes no projeto.
 
 Pronto quando:
-- os estados estiverem implementados.
+- Apenas o autor da ideia (ou um administrador) puder alterar o status da ideia publicada;
+- Toda ideia recém-publicada recebe, automaticamente, o status de "Aberta";
+- O autor puder acessar a página da sua ideia e selecionar entre os status: "Aberta", "Fechada" e "Em andamento";
+- O status atual deve ficar visível de forma clara (ex: uma etiqueta customizada) no cartão da ideia no mural;
+- Ideias que não estiverem "Abertas" tiverem o botão "Tenho interesse" desabilitado ou oculto
+
+--------------------------------- Correção
 
 Obs.: falamos em três estados — semente, germinando, proposta.
 
