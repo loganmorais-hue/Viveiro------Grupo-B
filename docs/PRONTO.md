@@ -4,7 +4,7 @@
 
 ## Definição geral
 
-Uma história está pronta quando funciona e o cliente aprova.
+Uma história está pronta quando funciona e o cliente aprova e atende todos os requisitos de aceitacão.
 
 ## Critérios de aceitação
 
