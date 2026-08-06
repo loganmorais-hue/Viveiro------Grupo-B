@@ -117,13 +117,14 @@ Pronto quando:
 ---
 
 ### V-08 — Não perder o que foi escrito
-
-**Como** usuário,
-**quero** não perder o que escrevi,
-**para** não ter que digitar tudo de novo.
+**Como** usuário que está escrevendo uma nova ideia,
+**quero** que meu progresso seja salvo automaticamente (rascunho),
+**para** não perder as informações caso eu feche a aba, atualize a página sem querer ou perca a conexão.
 
 Pronto quando:
-- os dados forem salvos em `localStorage` usando `JSON.stringify`, e recuperados no carregamento da página.
+- os dados inseridos no formulário forem salvos no `localStorage` (ex: usando `JSON.stringify`) a cada alteração ou em intervalos curtos;
+- os dados forem recuperados do `localStorage` preenchendo os campos automaticamente no recarregamento da página;
+- os dados temporários do `localStorage` forem limpos assim que a ideia for publicada com sucesso.
 
 ---
 
@@ -139,17 +140,39 @@ Pronto quando:
 - tocar na notificação abre a ideia correspondente.
 
 ---
+### V-10 — Ideias Paradas
+**Como** administrador da plataforma (ou aluno visualizando o mural),
+**quero** poder identificar ou arquivar ideias que estão sem nenhuma interação há muito tempo,
+**para** manter o mural focado em projetos ativos, evitando poluição visual.
 
-## Caixa de entrada
-
-Anotações de conversa. Ninguém escreveu direito ainda.
-
-- **V-10** — ideias paradas
-- **V-11** — relatório por curso
-- **V-12** — exportar / importar o estado
+Pronto quando:
+- ideias sem novos interessados ou sem mudança de status por mais de 30 dias (tempo configurável) receberem um marcador visual de "Inativa" ou "Parada";
+- houver uma rotina que notifique o autor perguntando se ele deseja manter a ideia no mural ou arquivá-la;
+- ideias arquivadas sumirem do mural principal, mas continuarem acessíveis no perfil do autor.
 
 ---
 
+### V-11 — Relatório por Curso
+**Como** coordenador ou administrador do sistema,
+**quero** visualizar um relatório de engajamento agrupado pelo curso dos alunos,
+**para** entender quais cursos estão propondo mais ideias e participando mais ativamente da plataforma.
+
+Pronto quando:
+- existir um painel (dashboard) acessível apenas para perfis com permissão;
+- o sistema exibir uma tabela ou gráfico mostrando a quantidade de ideias propostas por curso;
+- o sistema exibir a quantidade de alunos que demonstraram interesse em projetos, segmentados pelo seu curso de origem.
+
+---
+
+### V-12 — Busca por Palavras-chave
+**Como** aluno em busca de um projeto para participar,
+**quero** poder pesquisar ideias utilizando palavras-chave,
+**para** encontrar rapidamente projetos que estejam alinhados às minhas habilidades tecnológicas ou áreas de interesse.
+
+Pronto quando:
+- houver uma barra de pesquisa facilmente visível na tela do mural de ideias;
+- ao digitar um termo, a lista de ideias for filtrada, exibindo apenas as correspondentes;
+- o filtro de pesquisa buscar ocorrências da palavra no título, na descrição e nas tags da ideia.
 ## Defeitos conhecidos
 
 Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
@@ -159,6 +182,7 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 - **B-03** — a data aparece como `2026-03-14` em vez de `14/03/2026`.
 - **B-04** — buscar `robotica` não encontra "Robótica"; buscar `Musica` não encontra "música".
 - **B-05** — o número de apoios no cartão só muda depois que se refaz a busca.
+
 - **B-06** — título comprido vaza para fora do cartão e atravessa o cartão vizinho.
 
 
@@ -166,12 +190,12 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 | História | Situação em que foi recebida | O que foi alterado | Justificativa |
 |---|---|---|---|
-| V-02 |  | ... | ... |
-| V-03 || nada foi alterado | ... |
-| V-04 || ... | ... |
-| V-05 || nada foi alterado  | ... |
+| V-02 | incompleta | O formato da história, bem como o critério de aceite | Não segue o formato de história de usuário, e o critério de aceite estava bastante ambíguo |
+| V-03 | Completa | nada foi alterado | ... |
+| V-04 || incompleta | A história e os detalhes | Os detalhes da história eram bastante subjetivos, não podendo ser "medidos" de maneira exata |
+| V-05 | Completa | nada foi alterado  | ... |
 | V-06 || ... | ... |
-| V-07 || nada foi alterado | ... |
+| V-07 | Completa | nada foi alterado | ... |
 | V-08 || ... | ... |
-| V-09 | | nada foi alterado | ... |
+| V-09 | Completa | nada foi alterado | ... |
 
