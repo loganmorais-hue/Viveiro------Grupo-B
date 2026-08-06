@@ -86,15 +86,14 @@ Pronto quando:
 ### V-06 — Estados da ideia
 
 **Como** Autor de uma ideia,
-**quero** poder mudar o status da minha publicação (ex: Aberta, Fechada, Em andamento),
-**para** que outros saibam se ainda estou aceitando participantes no projeto.
+**quero** poder mudar o status da minha publicação (ex: Semente, Germinando, Proposta),
+**para** que outros saibam o estado que o projeto se encontra
 
 Pronto quando:
 - Apenas o autor da ideia (ou um administrador) puder alterar o status da ideia publicada;
-- Toda ideia recém-publicada recebe, automaticamente, o status de "Aberta";
-- O autor puder acessar a página da sua ideia e selecionar entre os status: "Aberta", "Fechada" e "Em andamento";
+- Toda ideia recém-publicada recebe, automaticamente, o status de "Semente";
+- O autor puder acessar a página da sua ideia e selecionar entre os status: "Semente", "Germinando" e "Proposta";
 - O status atual deve ficar visível de forma clara (ex: uma etiqueta customizada) no cartão da ideia no mural;
-- Ideias que não estiverem "Abertas" tiverem o botão "Tenho interesse" desabilitado ou oculto
 
 --------------------------------- Correção
 
