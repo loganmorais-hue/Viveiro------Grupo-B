@@ -124,7 +124,8 @@ Pronto quando:
 
 Pronto quando:
 - os dados forem salvos em `localStorage` usando `JSON.stringify`, e recuperados no carregamento da página.
-
+- os dados permanecem disponíveis após atualizar a página;
+- as informações são restauradas automaticamente ao abrir a aplicação.
 ---
 
 ### V-09 — Aviso de novo interessado
@@ -166,7 +167,7 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 | História | Situação em que foi recebida | O que foi alterado | Justificativa |
 |---|---|---|---|
-| V-02 |  | ... | ... |
+| V-02 |  | nada foi alterado | ... |
 | V-03 || nada foi alterado | ... |
 | V-04 || ... | ... |
 | V-05 || nada foi alterado  | ... |
