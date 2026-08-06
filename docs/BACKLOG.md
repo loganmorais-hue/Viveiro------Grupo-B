@@ -173,6 +173,6 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 | V-05 || nada foi alterado  | ... |
 | V-06 || ... | ... |
 | V-07 || nada foi alterado | ... |
-| V-08 || ... | ... |
+| V-08 |feita, mas mal feita |a comunicação técnica foi retirada e foi adicionada comunicação de fácil compreensão| estava explicando de forma técnica, impossível pra alguém de fora entender a ideia |
 | V-09 | | nada foi alterado | ... |
 
