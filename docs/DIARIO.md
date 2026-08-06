@@ -8,7 +8,7 @@
 
 ## Encontro 1 — 30/07 (aula)
 
-**Presentes:** *Natanael, Logan, Samuel, Marcos.*
+**Presentes:** *Natanael, Logan, Samuel, Marcos e Adryan*
 **Escriba:** *Samuel.*
 
 **O que se pretendia:** *Definir as ocupações de cada um do grupo, organizar e entender os diretórios do github e fazer o máximo de coisas possíveis.*
