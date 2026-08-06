@@ -160,3 +160,18 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 - **B-04** — buscar `robotica` não encontra "Robótica"; buscar `Musica` não encontra "música".
 - **B-05** — o número de apoios no cartão só muda depois que se refaz a busca.
 - **B-06** — título comprido vaza para fora do cartão e atravessa o cartão vizinho.
+
+
+## Registro da triagem — 30/07
+
+| História | Situação em que foi recebida | O que foi alterado | Justificativa |
+|---|---|---|---|
+| V-02 |  | ... | ... |
+| V-03 || nada foi alterado | ... |
+| V-04 || ... | ... |
+| V-05 || nada foi alterado  | ... |
+| V-06 || ... | ... |
+| V-07 || nada foi alterado | ... |
+| V-08 || ... | ... |
+| V-09 | | nada foi alterado | ... |
+
