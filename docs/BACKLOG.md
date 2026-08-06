@@ -123,7 +123,6 @@ Pronto quando:
 **para** não ter que digitar tudo de novo.
 
 Pronto quando:
-- os dados forem salvos em `localStorage` usando `JSON.stringify`, e recuperados no carregamento da página.
 - os dados permanecem disponíveis após atualizar a página;
 - as informações são restauradas automaticamente ao abrir a aplicação.
 ---
@@ -173,6 +172,6 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 | V-05 || nada foi alterado  | ... |
 | V-06 || ... | ... |
 | V-07 || nada foi alterado | ... |
-| V-08 |feita, mas mal feita |a comunicação técnica foi retirada e foi adicionada comunicação de fácil compreensão| estava explicando de forma técnica, impossível pra alguém de fora entender a ideia |
+| V-08 |feita, mas mal feita |a comunicação técnica foi retirada e foi adicionada comunicação de fácil compreensão| explicação de forma técnica, difícil pra alguém de fora do projeto compreender |
 | V-09 | | nada foi alterado | ... |
 
