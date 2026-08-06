@@ -8,11 +8,11 @@
 
 ## Encontro 1 — 30/07 (aula)
 
-**Presentes:**
-**Escriba:**
+**Presentes:** *Natanael, Logan, Samuel, Marcos.*
+**Escriba:** *Samuel.*
 
-**O que se pretendia:**
-**O que se realizou:**
+**O que se pretendia:** *Definir as ocupações de cada um do grupo, organizar e entender os diretórios do github e fazer o máximo de coisas possíveis.*
+**O que se realizou:** *
 
 **Tempo gasto por história:**
 
