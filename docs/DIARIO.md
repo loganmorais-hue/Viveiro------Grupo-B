@@ -12,7 +12,7 @@
 **Escriba:** *Samuel.*
 
 **O que se pretendia:** *Definir as ocupações de cada um do grupo, organizar e entender os diretórios do github e fazer o máximo de coisas possíveis.*
-**O que se realizou:** *
+**O que se realizou:** *Nosso grupo criou e configurou o repositorio, publicou a aplicação no github pages, selecionou a base de dados da equipe e registrou as informaçoes da equipe na issue do repositorio da disciplina.*
 
 **Tempo gasto por história:**
 
