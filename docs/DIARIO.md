@@ -8,20 +8,20 @@
 
 ## Encontro 1 — 30/07 (aula)
 
-**Presentes:** *Natanael, Logan, Samuel, Marcos*
+**Presentes:** *Natanael, Logan, Samuel, Marcos.*
 **Escriba:** *Samuel.*
 
 **O que se pretendia:** *Definir as ocupações de cada um do grupo, organizar e entender os diretórios do github e fazer o máximo de coisas possíveis.*
-**O que se realizou:** *Nosso grupo criou e configurou o repositorio, publicou a aplicação no github pages, selecionou a base de dados da equipe e registrou as informaçoes da equipe na issue do repositorio da disciplina.*
+**O que se realizou:** *Nosso grupo criou e configurou o repositório, publicou a aplicação no github pages, selecionou a base de dados da equipe e registrou as informações da equipe na issue do repositório da disciplina.*
 
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
 
-**Impedimentos encontrados:** *(o que travou o trabalho, e o que foi feito a respeito)*
+**Impedimentos encontrados:** *Falta de conhecimento sobre programação em CSS e java. Para resolver pesquisamos mais sobre o assunto o que nos ajudou a resolver grande parte dos problemas deixados pela última equipe.*
 
-**Decisões tomadas:** *(com a justificativa de cada uma)*
+**Decisões tomadas:** *Decidimos as ocupações de cada um da equipe, e planejamos o que os participantes do grupo que faltaram deveriam fazer.*
 
 ---
 
