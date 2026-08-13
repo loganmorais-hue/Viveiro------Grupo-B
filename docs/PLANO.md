@@ -8,27 +8,27 @@
 > Uma frase, verificável, acordada com o cliente. Tudo o que entrar no
 > compromisso deve servir a ela.
 
-*(escrever aqui)*
+Permitir o fluxo de várias ideias, publicadas por vários tipos de usuário, facilitando na hora de encontrar iniciativas parecidas com os gostos do usuário.
 
 ## 2. Compromisso
 
 > Preencher em 30/07 com a estimativa em horas. A coluna de reestimativa
 > só será preenchida em 13/08 — deixá-la vazia até lá.
 
-| ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
+| ID | História | Estimativa inicial (horas) - Estimativa Fibonacci | Reestimativa 13/08 (pontos) | Situação ao final |
 |---|---|---|---|---|
 | V-01 | Página da pessoa | 8 | | |
-| V-02 | Filtro por curso | 5 | | |
-| V-03 | Publicar uma ideia | 8 | | |
-| V-04 | Encontrar ideias que combinam comigo | 20 | | |
-| V-05 | Entrar e sair de um grupo | 12 | | |
-| V-06 | Estados da ideia | 8 | | |
-| V-07 | Registrar interesse em participar | 12 | | |
+| V-02 | Filtro por curso | 3 | | |
+| V-03 | Publicar uma ideia | 5 | | |
+| V-04 | Encontrar ideias que combinam comigo | 8 | | |
+| V-05 | Entrar e sair de um grupo | 13 | | |
+| V-06 | Estados da ideia | 3 | | |
+| V-07 | Registrar interesse em participar | 5 | | |
 | V-08 | Não perder o que foi escrito | 8 | | |
-| V-09 | Aviso de novo interessado | 35 | | |
-| V-10 | Ideias paradas | 12 | | |
-| V-11 | Relatório por curso | 20 | | |
-| V-12 | Exportar e importar o estado | 35 | | |
+| V-09 | Aviso de novo interessado | 13 | | |
+| V-10 | Ideias paradas | 5 | | |
+| V-11 | Relatório por curso | 8 | | |
+| V-12 | Exportar e importar o estado | 13 | | |
 
 **Capacidade assumida pela equipe:** ____ horas
 (4 encontros + sessões extras previstas)
