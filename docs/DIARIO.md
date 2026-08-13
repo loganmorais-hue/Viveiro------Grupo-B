@@ -34,7 +34,7 @@
 **O que se realizou:**
 
 | ID | Quem trabalhou | Tempo (min) |
-|---|---|---|
+|V01|Logan|5min|
 
 **Impedimentos e decisões:**
 
