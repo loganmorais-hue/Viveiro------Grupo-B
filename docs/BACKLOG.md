@@ -134,45 +134,49 @@ Pronto quando:
 - ao registrar interesse, o autor recebe uma notificação no celular em até um minuto;
 - a notificação mostra o nome de quem se interessou e o título da ideia;
 - tocar na notificação abre a ideia correspondente.
-
+  
 ---
 
-### V-10 — Aviso de novo interessado
+### V-10 — Ideias paradas
 
-**Como** aluno com uma ideia publicada,
-**quero** receber uma notificação no celular quando alguém demonstrar interesse,
-**para** não perder a chance de formar grupo.
+**Como** administrador ou moderador do sistema,  
+**quero** identificar e filtrar ideias que não recebem interações ou atualizações há mais de X dias,  
+**para** poder arquivá-las ou contactar os autores e manter o mural atualizado.
 
 Pronto quando:
-- ao registrar interesse, o autor recebe uma notificação no celular em até um minuto;
-- a notificação mostra o nome de quem se interessou e o título da ideia;
-- tocar na notificação abre a ideia correspondente.
+- existir uma aba ou filtro exclusivo de moderação para "Ideias Inativas";
+- o sistema considerar inativa qualquer ideia sem novos comentários, apoios ou edições há mais de 30 dias (ou parâmetro configurável);
+- a lista exibir há quantos dias a ideia está sem interação;
+- o moderador puder acionar a ação "Arquivar ideia" ou "Enviar lembrete ao autor".
 
 ---
 
-### V-11 — Aviso de novo interessado
+### V-11 — Relatório por curso
 
-**Como** aluno com uma ideia publicada,
-**quero** receber uma notificação no celular quando alguém demonstrar interesse,
-**para** não perder a chance de formar grupo.
+**Como** coordenador de curso ou gestor da plataforma,  
+**quero** visualizar um relatório com a quantidade de ideias e interações agrupadas por curso,  
+**para** entender quais áreas da instituição estão mais engajadas com as iniciativas.
 
 Pronto quando:
-- ao registrar interesse, o autor recebe uma notificação no celular em até um minuto;
-- a notificação mostra o nome de quem se interessou e o título da ideia;
-- tocar na notificação abre a ideia correspondente.
+- houver uma página ou seção de estatísticas/relatórios acessível a gestores;
+- o relatório exibir um gráfico ou tabela simples mostrando o número total de ideias criadas por alunos de cada curso;
+- o relatório mostrar a taxa de participação (ex: número total de apoios/interesses por curso);
+- for possível filtrar o período do relatório (ex: último mês, último semestre, todo o período).
 
 ---
 
-## Caixa de entrada
+### V-12 — Exportar e importar o estado
 
-Anotações de conversa. Ninguém escreveu direito ainda.
+**Como** administrador do sistema,  
+**quero** exportar todos os dados atuais da aplicação e importar um arquivo de estado prévio,  
+**para** realizar backups de segurança e restaurar o sistema em caso de falhas ou testes.
 
-- **V-10** — ideias paradas
-- **V-11** — relatório por curso
-- **V-12** — exportar / importar o estado
-
+Pronto quando:
+- existir um botão "Exportar Estado" que baixa um arquivo (ex: `.json`) contendo todas as ideias, usuários e interações;
+- existir um campo de upload "Importar Estado" que lê o arquivo e substitui/atualiza a base de dados atual;
+- o sistema validar a estrutura do arquivo importado antes de aplicar as alterações, exibindo erro se o arquivo estiver corrompido;
+- após a importação bem-sucedida, a tela recarregar exibindo os novos dados importados.
 ---
-
 ## Defeitos conhecidos
 
 Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
@@ -189,12 +193,15 @@ Nenhum destes foi priorizado. Estão aqui para não serem esquecidos.
 
 | História | Situação em que foi recebida | O que foi alterado | Justificativa |
 |---|---|---|---|
-| V-02 |  | nada foi alterado | ... |
-| V-03 || nada foi alterado | ... |
-| V-04 || ... | ... |
-| V-05 || nada foi alterado  | ... |
-| V-06 || ... | ... |
-| V-07 || nada foi alterado | ... |
-| V-08 |feita, mas mal feita |a comunicação técnica foi retirada e foi adicionada comunicação de fácil compreensão| explicação de forma técnica, difícil pra alguém de fora do projeto compreender |
-| V-09 | | nada foi alterado | ... |
-
+| V-01 | Completa e revisada pelo cliente. | Nada foi alterado | A história já estava no formato ideal (Como / Quero / Para) e com critérios claros. |
+| V-02 | Incompleta (apenas título e critério genérico: "o filtro estiver funcionando"). | Reescrita no formato Como / Quero / Para e adicionados critérios de aceitação detalhados. | O requisito original não explicava a motivação do usuário nem definia o comportamento esperado do filtro. |
+| V-03 | Completa e bem estruturada. | nada foi alterado | Já possuía estrutura adequada e critérios de aceitação objetivos. |
+| V-04 | Muito genérica ("interface amigável", "busca rápida"). | Especificado o mecanismo de recomendação por tags/interesses e critérios mensuráveis de aceitação. | Critérios como "relevante" ou "amigável" eram ambíguos para o time de desenvolvimento. |
+| V-05 | Completa e revisada pelo cliente. | nada foi alterado  | Detalhamento dos estados e contadores já estava claro e completo. |
+| V-06 | V-06	Incompleta e genérica ("para que os estados fiquem registrados"). | Definida a regra de permissões (autor/admin), estado padrão ("Semente") e transições visuais. | A versão original apenas mencionava os nomes dos estados em uma observação solta. |
+| V-07 | Completa e bem detalhada. | nada foi alterado | Regras de duplicidade e desfazimento já estavam bem especificadas. |
+| V-08 | Incompleta (faltava a justificativa do "Para") | Completada a justificativa do usuário e detalhados os cenários de salvamento/restauração do estado.| Toda história de usuário precisa de uma motivação de valor bem definida. |
+| V-09 | Completa, porém muito complexa. | porém de alta complexidade.	Mantido o escopo original, identificando riscos de infraestrutura (Push Notifications). | Desafiadora, mas está correta |
+| V-10 | Rascunho na "Caixa de Entrada" (apenas o título "ideias paradas"). | Formatada como História de Usuário e criados critérios de aceitação (regra dos 30 dias de inatividade). | Precisava ser promovida de anotação solta para um requisito testável. |
+| V-11 | Rascunho na "Caixa de Entrada" ("relatório por curso"). | Formatada como História de Usuário, definindo perfis de acesso (gestores) e métricas do relatório. | Anotações soltas não oferecem insumos suficientes para estimativa ou desenvolvimento. |
+| V-12 | Rascunho na "Caixa de Entrada" ("exportar / importar o estado"). | Formatada como História de Usuário com validações de arquivo corrompido e recarregamento dos dados. |Requisito de alto risco que exigia regras claras de importação/exportação.|
