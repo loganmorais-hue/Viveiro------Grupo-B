@@ -114,13 +114,14 @@ Pronto quando:
 
 ### V-08 — Não perder o que foi escrito
 
-**Como** usuário,
-**quero** não perder o que escrevi,
-**para** não ter que digitar tudo de novo.
+**Como** autor de uma ideia,
+**quero** quero salvar o progresso da minha ideia,
+**para** não perder o meu trabalho caso aconteça alguma eventualidade (internet caia, a página recarregue, feche a aba sem querer, entre outros).
 
 Pronto quando:
 - os dados permanecem disponíveis após atualizar a página;
 - as informações são restauradas automaticamente ao abrir a aplicação.
+  
 ---
 
 ### V-09 — Aviso de novo interessado
