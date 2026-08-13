@@ -82,7 +82,7 @@ Pronto quando:
 - trocar a pessoa em "navegando como" muda corretamente o que aparece como "meus grupos".
 
 ---
------------------------------------
+
 ### V-06 — Estados da ideia
 
 **Como** Autor de uma ideia,
@@ -94,10 +94,6 @@ Pronto quando:
 - Toda ideia recém-publicada recebe, automaticamente, o status de "Semente";
 - O autor puder acessar a página da sua ideia e selecionar entre os status: "Semente", "Germinando" e "Proposta";
 - O status atual deve ficar visível de forma clara (ex: uma etiqueta customizada) no cartão da ideia no mural;
-
---------------------------------- Correção
-
-Obs.: falamos em três estados — semente, germinando, proposta.
 
 ---
 
