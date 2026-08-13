@@ -17,8 +17,18 @@
 
 | ID | História | Estimativa inicial (horas) | Reestimativa 13/08 (pontos) | Situação ao final |
 |---|---|---|---|---|
-| V-?? | | | | |
-| V-?? | | | | |
+| V-01 | Página da pessoa | 8 | | |
+| V-02 | Filtro por curso | 5 | | |
+| V-03 | Publicar uma ideia | 8 | | |
+| V-04 | Encontrar ideias que combinam comigo | 20 | | |
+| V-05 | Entrar e sair de um grupo | 12 | | |
+| V-06 | Estados da ideia | 8 | | |
+| V-07 | Registrar interesse em participar | 12 | | |
+| V-08 | Não perder o que foi escrito | 8 | | |
+| V-09 | Aviso de novo interessado | 35 | | |
+| V-10 | Ideias paradas | 12 | | |
+| V-11 | Relatório por curso | 20 | | |
+| V-12 | Exportar e importar o estado | 35 | | |
 
 **Capacidade assumida pela equipe:** ____ horas
 (4 encontros + sessões extras previstas)
