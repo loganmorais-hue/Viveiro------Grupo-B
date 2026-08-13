@@ -137,6 +137,32 @@ Pronto quando:
 
 ---
 
+### V-10 — Aviso de novo interessado
+
+**Como** aluno com uma ideia publicada,
+**quero** receber uma notificação no celular quando alguém demonstrar interesse,
+**para** não perder a chance de formar grupo.
+
+Pronto quando:
+- ao registrar interesse, o autor recebe uma notificação no celular em até um minuto;
+- a notificação mostra o nome de quem se interessou e o título da ideia;
+- tocar na notificação abre a ideia correspondente.
+
+---
+
+### V-11 — Aviso de novo interessado
+
+**Como** aluno com uma ideia publicada,
+**quero** receber uma notificação no celular quando alguém demonstrar interesse,
+**para** não perder a chance de formar grupo.
+
+Pronto quando:
+- ao registrar interesse, o autor recebe uma notificação no celular em até um minuto;
+- a notificação mostra o nome de quem se interessou e o título da ideia;
+- tocar na notificação abre a ideia correspondente.
+
+---
+
 ## Caixa de entrada
 
 Anotações de conversa. Ninguém escreveu direito ainda.
