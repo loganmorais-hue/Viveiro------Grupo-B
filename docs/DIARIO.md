@@ -21,14 +21,6 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 
 **Decisões tomadas:**  Decidimos as ocupações de cada um da equipe, e planejamos o que os participantes do grupo que faltaram deveriam fazer.
 
-
----
-
-
-**Impedimentos encontrados:** *Falta de conhecimento sobre programação em CSS e java. Para resolver pesquisamos mais sobre o assunto o que nos ajudou a resolver grande parte dos problemas deixados pela última equipe.*
-
-**Decisões tomadas:** *Decidimos as ocupações de cada um da equipe, e planejamos o que os participantes do grupo que faltaram deveriam fazer.*
-
 ---
 
 ## Encontro 2 — 06/08 (aula)
