@@ -15,13 +15,42 @@
 
 **Tempo gasto por história:**
 
-| ID | Quem trabalhou | Tempo (min) |
-|---|---|---|
+No primeiro dia estávamos focados em organizar o repositório, logo no sobrou tempo para as historias.
+
+**Impedimentos encontrados:** Falta de conhecimento sobre programação em CSS e Java. Para resolver pesquisamos mais sobre o assunto o que nos ajudou a resolver grande parte dos problemas deixados pela última equipe.
+
+**Decisões tomadas:**  Decidimos as ocupações de cada um da equipe, e planejamos o que os participantes do grupo que faltaram deveriam fazer.
+
+
+---
 
 
 **Impedimentos encontrados:** *Falta de conhecimento sobre programação em CSS e java. Para resolver pesquisamos mais sobre o assunto o que nos ajudou a resolver grande parte dos problemas deixados pela última equipe.*
 
 **Decisões tomadas:** *Decidimos as ocupações de cada um da equipe, e planejamos o que os participantes do grupo que faltaram deveriam fazer.*
+
+---
+## Encontro 3 — 13/08 (aula)
+**Presentes:** *Natanael, Logan, Samuel, Marcos, Adryan e Matheo*
+**Escriba:** *Natanael*
+
+**O que se pretendia:** *Corrigir erros em historias do backlog ao máximo e atualizar o glossário. *
+
+**O que se realizou:** *Corrigimos muitas historias mas não todas, e não terminamos a triagem também, mas o glossário foi atualizado.*
+
+**Tempo gasto por história:**
+
+| ID | Quem trabalhou | Tempo (min) |
+|---|---|---|
+|V-02| Logan | 4 |
+|V-04| Logan | 7 |
+|V-06| Logan | 5 |
+|V-08| Logan | 8 |
+
+**Impedimentos encontrados:** *Falta de tempo, e falta de conhecimento profundo em javascript.*
+
+
+**Decisões tomadas:** *Decidimos que o Logan vai ser sempre quem altera o backlog, mas sempre vamos ajuda-lo para não faltar tempo novamente.*
 
 ---
 
@@ -54,9 +83,9 @@
 |---|---|---|
 |V-02| Logan ||
 
-**Impedimentos encontrados:** *Atingimos a meta pretendida sem nenhum impedimento.*
+**Impedimentos encontrados:** Atingimos a meta pretendida sem nenhum impedimento.
 
-**Decisões tomadas:** *Decidimos o trabalho de cada membro para o próximo encontro.*
+**Decisões tomadas:**  Decidimos o trabalho de cada membro para o próximo encontro.
 
 ---
 
