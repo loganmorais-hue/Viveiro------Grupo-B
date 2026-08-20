@@ -1,4 +1,4 @@
-# Diário da sprint — [Grupo - B] · base [V-X]
+# Diário da sprint — [nome da equipe] · base [V-?]
 
 > Um bloco por encontro e por sessão extra, sempre no mesmo formato.
 > O diário registra o que aconteceu, não o que deveria ter acontecido.
@@ -16,16 +16,9 @@
 
 **Tempo gasto por história:**
 
-| ID | Quem trabalhou | Tempo (min) (fazer as histórias e a triagem) |
+| ID | Quem trabalhou | Tempo (min) |
 
-|V-02| Logan | 4 |
-|V-04| Logan | 7 |
-|V-06| Logan | 5 |
-|V-08| Logan | 8 |
-|V-09| Logan | 7 |
-|V-10| Logan | 12 |
-|V-11| Logan | 7 |
-|V-12| Logan | 11 |
+|AAAAAAA|AAAAAAA|AAAAAAA|
 
 **Impedimentos encontrados:** *Falta de conhecimento sobre programação em CSS e java. Para resolver pesquisamos mais sobre o assunto o que nos ajudou a resolver grande parte dos problemas deixados pela última equipe.*
 
@@ -47,6 +40,28 @@
 **Impedimentos e decisões:**
 
 ---
+
+## Encontro 2 — 06/08 (aula)
+
+**Presentes:** *Natanael, Logan, Samuel, Marcos, Adryan e Matheo*
+**Escriba:** *Adryan.*
+
+**O que se pretendia:** *Iniciar a organização do backlog e resolver os problemas da história.*
+**O que se realizou:** *Realizamos o que pretendíamos, iniciamos a organização do backlog e resolvemos grande parte dos problemas de história.*
+
+**Tempo gasto por história:**
+
+| ID | Quem trabalhou | Tempo (min) |
+
+|AAAAAAA|AAAAAAA|AAAAAAA|
+
+**Impedimentos encontrados:** *Atingimos a meta pretendida sem nenhum impedimento.*
+
+**Decisões tomadas:** *Decidimos o trabalho de cada membro para o próximo encontro.*
+
+---
+
+## Sessão extra — [data], [duração]
 
 > Repetir o bloco adequado para cada encontro (06/08, 13/08, 20/08) e para
 > cada sessão extra. Não apagar blocos de sessões que não aconteceram:
