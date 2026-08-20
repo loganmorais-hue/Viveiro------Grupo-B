@@ -1,4 +1,4 @@
-# Diário da sprint — [nome da equipe] · base [V-?]
+# Diário da sprint — [Grupo - B] · base [V-X]
 
 > Um bloco por encontro e por sessão extra, sempre no mesmo formato.
 > O diário registra o que aconteceu, não o que deveria ter acontecido.
@@ -22,6 +22,7 @@
 |V-04| Logan | 7 |
 |V-06| Logan | 5 |
 |V-08| Logan | 8 |
+|V-09| Logan | 7 |
 |V-10| Logan | 12 |
 |V-11| Logan | 7 |
 |V-12| Logan | 11 |
