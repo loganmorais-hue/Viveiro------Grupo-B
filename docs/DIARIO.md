@@ -16,9 +16,15 @@
 
 **Tempo gasto por história:**
 
-| ID | Quem trabalhou | Tempo (min) |
+| ID | Quem trabalhou | Tempo (min) (fazer as histórias e a triagem) |
 
-|AAAAAAA|AAAAAAA|AAAAAAA|
+|V-02| Logan | 4 |
+|V-04| Logan | 7 |
+|V-06| Logan | 5 |
+|V-08| Logan | 8 |
+|V-10| Logan | 12 |
+|V-11| Logan | 7 |
+|V-12| Logan | 11 |
 
 **Impedimentos encontrados:** *Falta de conhecimento sobre programação em CSS e java. Para resolver pesquisamos mais sobre o assunto o que nos ajudou a resolver grande parte dos problemas deixados pela última equipe.*
 
