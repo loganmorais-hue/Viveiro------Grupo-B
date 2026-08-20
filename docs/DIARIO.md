@@ -47,6 +47,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 |V-04| Logan | 7 |
 |V-06| Logan | 5 |
 |V-08| Logan | 8 |
+
 **Impedimentos encontrados:** Atingimos a meta pretendida sem nenhum impedimento.
 
 **Decisões tomadas:**  *Decidimos que o Logan vai ser sempre quem altera o backlog, mas sempre vamos ajuda-lo para não faltar tempo novamente.*
@@ -68,6 +69,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 |V-09| Logan | 13 |
 |V-10| Logan | 8 |
 |V-11| Logan | 13 |
+
 **Impedimentos encontrados:** *Essa parte foi mais tranquila, nao houve impedimentos*
 
 **Decisões tomadas:** *Decidimos o trabalho de cada membro para o próximo encontro.*
