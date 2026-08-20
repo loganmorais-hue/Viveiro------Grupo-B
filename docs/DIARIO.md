@@ -30,13 +30,14 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 **Decisões tomadas:** *Decidimos as ocupações de cada um da equipe, e planejamos o que os participantes do grupo que faltaram deveriam fazer.*
 
 ---
-## Encontro 3 — 13/08 (aula)
+
+## Encontro 2 — 06/08 (aula)
+
 **Presentes:** *Natanael, Logan, Samuel, Marcos, Adryan e Matheo*
-**Escriba:** *Natanael*
+**Escriba:** *Adryan.*
 
-**O que se pretendia:** *Corrigir erros em historias do backlog ao máximo e atualizar o glossário. *
-
-**O que se realizou:** *Corrigimos muitas historias mas não todas, e não terminamos a triagem também, mas o glossário foi atualizado.*
+**O que se pretendia:** *Iniciar a organização do backlog e resolver os problemas da história.*
+**O que se realizou:** *Realizamos o que pretendíamos, iniciamos a organização do backlog e resolvemos grande parte dos problemas de história.*
 
 **Tempo gasto por história:**
 
@@ -46,11 +47,30 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 |V-04| Logan | 7 |
 |V-06| Logan | 5 |
 |V-08| Logan | 8 |
+**Impedimentos encontrados:** Atingimos a meta pretendida sem nenhum impedimento.
 
-**Impedimentos encontrados:** *Falta de tempo, e falta de conhecimento profundo em javascript.*
+**Decisões tomadas:**  *Decidimos que o Logan vai ser sempre quem altera o backlog, mas sempre vamos ajuda-lo para não faltar tempo novamente.*
 
+---
 
-**Decisões tomadas:** *Decidimos que o Logan vai ser sempre quem altera o backlog, mas sempre vamos ajuda-lo para não faltar tempo novamente.*
+## Encontro 3 — 13/08 (aula)
+**Presentes:** *Natanael, Logan, Samuel, Marcos, Adryan e Matheo*
+**Escriba:** *Natanael*
+
+**O que se pretendia:** *Terminar de corrigir erros em historias do backlog. *
+
+**O que se realizou:** *Corrigimos as historias faltantes, e terminamos a triagem também, alem de estimar o tempo que seria utilizado para resolver cada uma.*
+
+**Tempo gasto por história:**
+
+| ID | Quem trabalhou | Tempo (min) |
+|---|---|---|
+|V-09| Logan | 13 |
+|V-10| Logan | 8 |
+|V-11| Logan | 13 |
+**Impedimentos encontrados:** *Essa parte foi mais tranquila, nao houve impedimentos*
+
+**Decisões tomadas:** *Decidimos o trabalho de cada membro para o próximo encontro.*
 
 ---
 
@@ -66,26 +86,6 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 |---|---|---|
 
 **Impedimentos e decisões:**
-
----
-
-## Encontro 2 — 06/08 (aula)
-
-**Presentes:** *Natanael, Logan, Samuel, Marcos, Adryan e Matheo*
-**Escriba:** *Adryan.*
-
-**O que se pretendia:** *Iniciar a organização do backlog e resolver os problemas da história.*
-**O que se realizou:** *Realizamos o que pretendíamos, iniciamos a organização do backlog e resolvemos grande parte dos problemas de história.*
-
-**Tempo gasto por história:**
-
-| ID | Quem trabalhou | Tempo (min) |
-|---|---|---|
-|V-02| Logan ||
-
-**Impedimentos encontrados:** Atingimos a meta pretendida sem nenhum impedimento.
-
-**Decisões tomadas:**  Decidimos o trabalho de cada membro para o próximo encontro.
 
 ---
 
