@@ -127,13 +127,13 @@ Pronto quando:
 ### V-09 — Aviso de novo interessado
 
 **Como** aluno com uma ideia publicada,
-**quero** receber uma notificação no celular quando alguém demonstrar interesse,
+**quero** receber um aviso no sistema (ou por e-mail) quando alguém demonstrar interesse,
 **para** não perder a chance de formar grupo.
 
 Pronto quando:
-- ao registrar interesse, o autor recebe uma notificação no celular em até um minuto;
-- a notificação mostra o nome de quem se interessou e o título da ideia;
-- tocar na notificação abre a ideia correspondente.
+- Ao registrar interesse, o autor recebe uma notificação na plataforma web (ou e-mail) em até um minuto.
+- A notificação mostra o nome de quem se interessou e o título da ideia.
+- Clicar na notificação redireciona o usuário para a página da ideia correspondente.
   
 ---
 
