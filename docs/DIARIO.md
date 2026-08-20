@@ -17,6 +17,7 @@
 **Tempo gasto por história:**
 
 | ID | Quem trabalhou | Tempo (min) |
+
 |AAAAAAA|AAAAAAA|AAAAAAA|
 
 **Impedimentos encontrados:** *Falta de conhecimento sobre programação em CSS e java. Para resolver pesquisamos mais sobre o assunto o que nos ajudou a resolver grande parte dos problemas deixados pela última equipe.*
