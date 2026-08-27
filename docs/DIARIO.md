@@ -81,7 +81,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 
 **O que se pretendia:** *Começar a implementar as histórias no código. *
 
-**O que se realizou:* As histórias V-01, V-02 e V-08 foram implementadas. *
+**O que se realizou:** As histórias V-01, V-02 e V-08 foram implementadas. *
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
