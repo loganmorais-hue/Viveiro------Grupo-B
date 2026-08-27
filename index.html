@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Viveiro — berçário de ideias</title>
-<link rel="stylesheet" href="src/estilo.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Viveiro — berçário de ideias</title>
+
+  <link rel="stylesheet" href="src/estilo.css">
 </head>
+
 <body>
 
 <header>
@@ -13,6 +15,11 @@
     <h1>Viveiro</h1>
     <span class="lema">onde as ideias crescem antes de virar projeto</span>
   </div>
+
+    <select id="filtro-curso">
+  <option value="">Todos os cursos</option>
+</select>
+    
   <div class="sessao">
     <label for="quem">navegando como</label>
     <select id="quem"></select>
@@ -25,20 +32,33 @@
 </nav>
 
 <main>
-  <!-- ------------------------------ MURAL ------------------------------ -->
+
+  <!-- MURAL -->
   <section id="mural">
+
     <div class="barra">
-      <input id="busca" type="search" placeholder="buscar por título ou resumo...">
+      <input
+        id="busca"
+        type="search"
+        placeholder="buscar por título ou resumo..."
+      >
+
       <span id="contagem" class="contagem"></span>
     </div>
+
     <p id="filtro-ativo" class="filtro-ativo"></p>
+
     <div id="cartoes" class="cartoes"></div>
+
   </section>
 
-  <!-- ------------------------------ GRUPOS ----------------------------- -->
+  <!-- GRUPOS -->
   <section id="grupos" class="escondido">
+
     <ul id="lista-grupos" class="lista-grupos"></ul>
+
   </section>
+
 </main>
 
 <footer>
@@ -47,6 +67,8 @@
 </footer>
 
 <script src="dados/dados_B.js"></script>
+
 <script src="src/app.js"></script>
+
 </body>
 </html>
