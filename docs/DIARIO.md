@@ -8,6 +8,7 @@
 
 ## Encontro 1 — 30/07 (aula)
 **Presentes:** *Natanael, Logan, Samuel, Marcos.*
+
 **Escriba:** *Samuel.*
 
 **O que se pretendia:** *Definir as ocupações de cada um do grupo, organizar e entender os diretórios do github e fazer o máximo de coisas possíveis.*
@@ -26,6 +27,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 ## Encontro 2 — 06/08 (aula)
 
 **Presentes:** *Natanael, Logan, Samuel, Marcos, Adryan e Matheo*
+
 **Escriba:** *Adryan.*
 
 **O que se pretendia:** *Iniciar a organização do backlog e resolver os problemas da história.*
@@ -51,6 +53,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 **Escriba:** *Natanael*
 
 **O que se pretendia:** *Terminar de corrigir erros em historias do backlog. *
+
 
 **O que se realizou:** *Corrigimos as historias faltantes, e terminamos a triagem também, alem de estimar o tempo que seria utilizado para resolver cada uma.*
 
