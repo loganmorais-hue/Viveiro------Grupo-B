@@ -11,8 +11,9 @@
 
 **Escriba:** *Samuel.*
 
-**O que se pretendia:** *Definir as ocupações de cada um do grupo, organizar e entender os diretórios do github e fazer o máximo de coisas possíveis.*
-**O que se realizou:** *Nosso grupo criou e configurou o repositório, publicou a aplicação no github pages, selecionou a base de dados da equipe e registrou as informações da equipe na issue do repositório da disciplina.*
+**O que se pretendia:** *Definir as ocupações de cada um do grupo, organizar e entender os diretórios do github e fazer o máximo de coisas possíveis.**
+
+**O que se realizou:** *Nosso grupo criou e configurou o repositório, publicou a aplicação no github pages, selecionou a base de dados da equipe e registrou as informações da equipe na issue do repositório da disciplina.**
 
 **Tempo gasto por história:**
 
@@ -51,6 +52,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 
 ## Encontro 3 — 13/08 (aula)
 **Presentes:** *Natanael, Logan, Samuel, Marcos, Adryan e Matheo*
+
 **Escriba:** *Natanael*
 
 **O que se pretendia:** *Terminar de corrigir erros em historias do backlog. *
@@ -66,7 +68,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 |V-10| Logan | 8 |
 |V-11| Logan | 13 |
 
-**Impedimentos encontrados:** *Essa parte foi mais tranquila, nao houve impedimentos*
+**Impedimentos encontrados:** *Essa parte foi mais tranquila, não houve impedimentos*
 
 **Decisões tomadas:** *Decidimos o trabalho de cada membro para o próximo encontro.*
 
