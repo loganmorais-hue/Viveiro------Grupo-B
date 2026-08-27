@@ -30,8 +30,9 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 
 **Escriba:** *Adryan.*
 
-**O que se pretendia:** *Iniciar a organização do backlog e resolver os problemas da história.*
-**O que se realizou:** *Realizamos o que pretendíamos, iniciamos a organização do backlog e resolvemos grande parte dos problemas de história.*
+**O que se pretendia:** *Iniciar a organização do backlog e resolver os problemas da história.**
+
+**O que se realizou:** *Realizamos o que pretendíamos, iniciamos a organização do backlog e resolvemos grande parte dos problemas de história.**
 
 **Tempo gasto por história:**
 
