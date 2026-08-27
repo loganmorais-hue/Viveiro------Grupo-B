@@ -1,5 +1,4 @@
-/* Viveiro — folha de estilo
-   escrita no 1o semestre de 2026 */
+/* Viveiro — folha de estilo */
 
 :root{
   --papel:#F6F3EC;
@@ -13,7 +12,9 @@
   --cartao:#FFFFFF;
 }
 
-*{ box-sizing:border-box; }
+*{
+  box-sizing:border-box;
+}
 
 body{
   margin:0;
@@ -23,7 +24,8 @@ body{
   font-size:15px;
 }
 
-/* ------------------------------- topo ------------------------------- */
+/* TOPO */
+
 header{
   display:flex;
   align-items:center;
@@ -32,42 +34,109 @@ header{
   background:var(--verde);
   color:#fff;
 }
-header h1{ margin:0; font-size:26px; letter-spacing:1px; }
-.lema{ font-size:13px; opacity:.85; margin-left:12px; font-style:italic; }
-.marca{ display:flex; align-items:baseline; }
-.sessao{ font-size:13px; }
-.sessao label{ margin-right:6px; opacity:.85; }
-.sessao select{
-  font-size:14px; padding:4px 8px; border-radius:5px;
-  border:1px solid rgba(255,255,255,.5); background:#fff; color:var(--tinta);
+
+header h1{
+  margin:0;
+  font-size:26px;
+  letter-spacing:1px;
 }
 
-/* ------------------------------- abas ------------------------------- */
-.abas{ padding:0 26px; border-bottom:1px solid var(--linha); background:var(--papel); }
+.lema{
+  font-size:13px;
+  opacity:.85;
+  margin-left:12px;
+  font-style:italic;
+}
+
+.marca{
+  display:flex;
+  align-items:baseline;
+}
+
+.sessao{
+  font-size:13px;
+}
+
+.sessao label{
+  margin-right:6px;
+  opacity:.85;
+}
+
+.sessao select{
+  font-size:14px;
+  padding:4px 8px;
+  border-radius:5px;
+  border:1px solid rgba(255,255,255,.5);
+  background:#fff;
+  color:var(--tinta);
+}
+
+/* ABAS */
+
+.abas{
+  padding:0 26px;
+  border-bottom:1px solid var(--linha);
+  background:var(--papel);
+}
+
 .aba{
-  border:none; background:none; cursor:pointer;
-  font-size:15px; padding:12px 16px; color:var(--suave);
+  border:none;
+  background:none;
+  cursor:pointer;
+  font-size:15px;
+  padding:12px 16px;
+  color:var(--suave);
   border-bottom:3px solid transparent;
 }
-.aba.ativa{ color:var(--verde); font-weight:bold; border-bottom-color:var(--broto); }
 
-main{ padding:20px 26px 40px; }
-
-/* ------------------------------ barra ------------------------------- */
-.barra{ display:flex; align-items:center; gap:14px; margin-bottom:10px; }
-#busca{
-  flex:0 0 340px; font-size:15px; padding:8px 12px;
-  border:1px solid var(--linha); border-radius:6px; background:#fff;
+.aba.ativa{
+  color:var(--verde);
+  font-weight:bold;
+  border-bottom-color:var(--broto);
 }
-.contagem{ color:var(--suave); font-size:14px; }
-.filtro-ativo{ margin:0 0 12px; font-size:14px; color:var(--terra); min-height:18px; }
 
-/* ----------------------------- cartões ------------------------------ */
+main{
+  padding:20px 26px 40px;
+}
+
+/* BARRA */
+
+.barra{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:10px;
+}
+
+#busca{
+  flex:0 0 340px;
+  font-size:15px;
+  padding:8px 12px;
+  border:1px solid var(--linha);
+  border-radius:6px;
+  background:#fff;
+}
+
+.contagem{
+  color:var(--suave);
+  font-size:14px;
+}
+
+.filtro-ativo{
+  margin:0 0 12px;
+  font-size:14px;
+  color:var(--terra);
+  min-height:18px;
+}
+
+/* CARTÕES */
+
 .cartoes{
   display:grid;
   grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
   gap:16px;
 }
+
 .cartao{
   background:var(--cartao);
   border:1px solid var(--linha);
@@ -76,48 +145,229 @@ main{ padding:20px 26px 40px; }
   box-shadow:0 1px 2px rgba(0,0,0,.05);
 }
 
-/* o título não pode quebrar linha, senão o cartão fica torto */
 .cartao h3{
   margin:0 0 6px;
   font-size:17px;
   color:var(--verde);
   white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
 }
 
-.cartao .autoria{ font-size:12.5px; color:var(--suave); margin-bottom:8px; }
-.cartao .resumo{ margin:0 0 10px; line-height:1.45; }
-.cartao .tags{ margin-bottom:10px; }
+.cartao .autoria{
+  font-size:12.5px;
+  color:var(--suave);
+  margin-bottom:8px;
+}
+
+.cartao .resumo{
+  margin:0 0 10px;
+  line-height:1.45;
+}
+
+.cartao .tags{
+  margin-bottom:10px;
+}
+
 .etiqueta{
-  display:inline-block; font-size:12px; padding:2px 9px; margin:0 5px 5px 0;
-  background:var(--verde-claro); color:var(--verde);
-  border-radius:12px; cursor:pointer;
+  display:inline-block;
+  font-size:12px;
+  padding:2px 9px;
+  margin:0 5px 5px 0;
+  background:var(--verde-claro);
+  color:var(--verde);
+  border-radius:12px;
+  cursor:pointer;
 }
-.etiqueta:hover{ background:var(--broto); color:#fff; }
-.cartao .rodape{ display:flex; align-items:center; gap:10px; }
+
+.etiqueta:hover{
+  background:var(--broto);
+  color:#fff;
+}
+
+.cartao .rodape{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
 .apoiar{
-  font-size:13px; padding:4px 12px; cursor:pointer;
-  border:1px solid var(--broto); color:var(--verde);
-  background:transparent; border-radius:14px;
+  font-size:13px;
+  padding:4px 12px;
+  cursor:pointer;
+  border:1px solid var(--broto);
+  color:var(--verde);
+  background:transparent;
+  border-radius:14px;
 }
-.apoiar:hover{ background:var(--broto); color:#fff; }
-.apoios{ font-size:13px; color:var(--suave); }
 
-/* ------------------------------ grupos ------------------------------ */
-.lista-grupos{ list-style:none; padding:0; margin:0; max-width:640px; }
+.apoiar:hover{
+  background:var(--broto);
+  color:#fff;
+}
+
+.apoios{
+  font-size:13px;
+  color:var(--suave);
+}
+
+/* GRUPOS */
+/* GRUPOS CLICÁVEIS */
+
+.grupo-clicavel{
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.grupo-clicavel:hover{
+  border-color:var(--broto);
+  background:var(--verde-claro);
+  transform:translateY(-2px);
+}
+
+.voltar-grupo{
+  border:1px solid var(--linha);
+  background:#fff;
+  color:var(--verde);
+  padding:8px 12px;
+  border-radius:6px;
+  cursor:pointer;
+  margin-bottom:15px;
+}
+
+.voltar-grupo:hover{
+  background:var(--verde-claro);
+}
+
+.titulo-grupo{
+  color:var(--verde);
+  margin-bottom:5px;
+}
+
+.projetos-grupo{
+  margin-top:20px;
+  display:grid;
+  gap:12px;
+  max-width:700px;
+}
+
+.projeto-grupo{
+  background:#fff;
+  border:1px solid var(--linha);
+  border-radius:8px;
+  padding:14px 16px;
+}
+
+.projeto-grupo strong{
+  display:block;
+  color:var(--verde);
+  font-size:16px;
+  margin-bottom:4px;
+}
+
+.projeto-grupo span{
+  color:var(--suave);
+  font-size:13px;
+}
+
+.projeto-grupo p{
+  margin:8px 0 0;
+  line-height:1.4;
+}
+
+
+.lista-grupos{
+  list-style:none;
+  padding:0;
+  margin:0;
+  max-width:640px;
+}
+
 .lista-grupos li{
-  background:#fff; border:1px solid var(--linha); border-radius:8px;
-  padding:12px 16px; margin-bottom:10px;
+  background:#fff;
+  border:1px solid var(--linha);
+  border-radius:8px;
+  padding:12px 16px;
+  margin-bottom:10px;
 }
-.lista-grupos .nome{ font-weight:bold; color:var(--verde); font-size:16px; }
-.lista-grupos .quantos{ float:right; color:var(--suave); font-size:13px; }
-.lista-grupos .descricao{ margin:4px 0 0; font-size:14px; color:var(--tinta); }
 
-.escondido{ display:none; }
+.lista-grupos .nome{
+  font-weight:bold;
+  color:var(--verde);
+  font-size:16px;
+}
 
-/* ------------------------------ rodapé ------------------------------ */
+.lista-grupos .quantos{
+  float:right;
+  color:var(--suave);
+  font-size:13px;
+}
+
+.lista-grupos .descricao{
+  margin:4px 0 0;
+  font-size:14px;
+  color:var(--tinta);
+}
+
+.escondido{
+  display:none;
+}
+
+/* RODAPÉ */
+
 footer{
-  display:flex; justify-content:space-between;
-  padding:12px 26px; border-top:1px solid var(--linha);
-  font-size:12.5px; color:var(--suave);
+  display:flex;
+  justify-content:space-between;
+  padding:12px 26px;
+  border-top:1px solid var(--linha);
+  font-size:12.5px;
+  color:var(--suave);
 }
-.base{ font-family:Consolas, monospace; }
+
+.base{
+  font-family:Consolas, monospace;
+}
+
+/* CELULAR */
+
+@media (max-width:700px){
+
+  header{
+    flex-direction:column;
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  .marca{
+    flex-direction:column;
+  }
+
+  .lema{
+    margin-left:0;
+    margin-top:4px;
+  }
+
+  .barra{
+    flex-direction:column;
+    align-items:stretch;
+  }
+
+  #busca{
+    flex:none;
+    width:100%;
+  }
+
+  .cartoes{
+    grid-template-columns:1fr;
+  }
+
+  main{
+    padding:15px;
+  }
+
+  footer{
+    padding:12px 15px;
+    flex-direction:column;
+    gap:5px;
+  }
+}
