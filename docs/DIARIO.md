@@ -74,9 +74,24 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 
 ---
 
+## Encontro 4 — 20/08 (aula)
+**Presentes:** *Marcos, Logan, Samuel, Matheo, Adryan, Natanael*
+
+**Escriba:** *Marcos*
+
+**O que se pretendia:** *Começar a implementar as histórias no código. *
+
+**O que se realizou:* As histórias V-01, V-02 e V-08 foram implementadas. *
+
+| ID | Quem trabalhou | Tempo (min) |
+|---|---|---|
+|V-01| Marcos | 10 |
+|V-02| Marcos | 16 |
+|V-08| Marcos | 30 |
+
 ## Sessão extra — [data], [duração]
 
-**Como foi combinada:** *(quando se marcou, por qual meio, quem confirmou)*
+**Como foi combinada:** *(Não houve e não haverá sessão extra)*
 **Presentes:**
 **Escriba:**
 
