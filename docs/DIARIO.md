@@ -100,8 +100,8 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
-| V-02 | Samuel |  20 |
-| V-03 | Logan | 15 |
+| V-03 | Samuel |  20 |
+| V-05 | Logan | 15 |
 
 **Impedimentos encontrados:** *Dificuldades em programação de arquivos e código JavaScript, necessitando de auxílio técnico.*
 
