@@ -81,7 +81,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 
 **O que se pretendia:** *Começar a implementar as histórias no código. *
 
-**O que se realizou:** As histórias V-01, V-02 e V-08 foram implementadas. *
+**O que se realizou:** *As histórias V-01, V-02 e V-08 foram implementadas. *
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
@@ -95,13 +95,19 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 
 **Escriba:** *Logan*
 
-**O que se pretendia:** *
-**O que se realizou:** 
+**O que se pretendia:** *Decisão de todas as histórias que conseguiríamos implementar até a data de entrega do projeto*
+**O que se realizou:** *A implementação de mais 2 histórias em forma de código (V-03 e V-05)* 
 
 | ID | Quem trabalhou | Tempo (min) |
 |---|---|---|
-| | | |
-| | | |
+| V-02 | Samuel |  20 |
+| V-03 | Logan | 15 |
+
+**Impedimentos encontrados:** *Dificuldades em programação de arquivos e código JavaScript, necessitando de auxílio técnico.*
+
+**Decisões tomadas:**  *As histórias do Backlog que serão feitas (V-01, V-02, V-03, V-05, V-08) e a divisão das tarefas de quem escreveria cada uma das histórias em código*
+
+---
 ## Sessão extra — [data], [duração]
 
 **Como foi combinada:** *(Não houve e não haverá sessão extra)*
