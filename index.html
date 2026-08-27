@@ -1,74 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Viveiro — berçário de ideias</title>
-
-  <link rel="stylesheet" href="src/estilo.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viveiro — berçário de ideias</title>
+    <link rel="stylesheet" href="src/estilo.css">
 </head>
-
 <body>
+    <header>
+        <div class="marca">
+            <h1>Viveiro</h1>
+            <span class="lema">onde as ideias crescem antes de virar projeto</span>
+        </div>
+        <select id="filtro-curso">
+            <option value="">Todos os cursos</option>
+        </select>
+        <div class="sessao">
+            <label for="quem">navegando como</label>
+            <select id="quem"></select>
+        </div>
+    </header>
 
-<header>
-  <div class="marca">
-    <h1>Viveiro</h1>
-    <span class="lema">onde as ideias crescem antes de virar projeto</span>
-  </div>
+    <nav class="abas">
+        <button id="aba-mural" class="aba ativa">Mural</button>
+        <button id="aba-grupos" class="aba">Grupos</button>
+    </nav>
 
-    <select id="filtro-curso">
-  <option value="">Todos os cursos</option>
-</select>
-    
-  <div class="sessao">
-    <label for="quem">navegando como</label>
-    <select id="quem"></select>
-  </div>
-</header>
+    <main>
+        <!-- MURAL -->
+        <section id="mural">
+            <div class="barra">
+                <input id="busca" type="search" placeholder="buscar por título ou resumo...">
+                <span id="contagem" class="contagem"></span>
+            </div>
+            
+            <p id="filtro-ativo" class="filtro-ativo"></p>
 
-<nav class="abas">
-  <button id="aba-mural" class="aba ativa">Mural</button>
-  <button id="aba-grupos" class="aba">Grupos</button>
-</nav>
+            <!-- FORMULÁRIO DE NOVA IDEIA (Adicionado) -->
+            <form id="form-publicar" class="formulario-ideia" style="margin: 20px 0; padding: 15px; border: 1px solid #ccc; border-radius: 5px;">
+                <h3>Publicar Nova Ideia</h3>
+                <div style="margin-bottom: 10px;">
+                    <input id="titulo-novo" type="text" placeholder="Título da ideia" style="width: 100%; padding: 8px;">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <textarea id="resumo-novo" placeholder="Resumo da ideia..." style="width: 100%; padding: 8px;"></textarea>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <input id="tags-novo" type="text" placeholder="Tags (separadas por vírgula)" style="width: 100%; padding: 8px;">
+                </div>
+                <span id="erro-novo" style="color: red; display: block; margin-bottom: 10px;"></span>
+                <button type="submit" style="padding: 8px 16px; cursor: pointer;">Publicar</button>
+            </form>
 
-<main>
+            <div id="cartoes" class="cartoes"></div>
+        </section>
 
-  <!-- MURAL -->
-  <section id="mural">
+        <!-- GRUPOS -->
+        <section id="grupos" class="escondido">
+            <ul id="lista-grupos" class="lista-grupos"></ul>
+        </section>
+    </main>
 
-    <div class="barra">
-      <input
-        id="busca"
-        type="search"
-        placeholder="buscar por título ou resumo..."
-      >
+    <footer>
+        <span>Viveiro — versão 0.1 (MVP)</span>
+        <span id="base" class="base"></span>
+    </footer>
 
-      <span id="contagem" class="contagem"></span>
-    </div>
-
-    <p id="filtro-ativo" class="filtro-ativo"></p>
-
-    <div id="cartoes" class="cartoes"></div>
-
-  </section>
-
-  <!-- GRUPOS -->
-  <section id="grupos" class="escondido">
-
-    <ul id="lista-grupos" class="lista-grupos"></ul>
-
-  </section>
-
-</main>
-
-<footer>
-  <span>Viveiro — versão 0.1 (MVP)</span>
-  <span id="base" class="base"></span>
-</footer>
-
-<script src="dados/dados_B.js"></script>
-
-<script src="src/app.js"></script>
-
+    <script src="dados/dados_B.js"></script>
+    <script src="src/app.js"></script>
 </body>
 </html>
