@@ -92,6 +92,7 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 ---
 ## Encontro 5 — 27/08 (aula)
 **Presentes:** *Marcos, Natanael, Samuel, Logan.*
+
 **Escriba:** *Logan*
 
 **O que se pretendia:** *
@@ -104,7 +105,9 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 ## Sessão extra — [data], [duração]
 
 **Como foi combinada:** *(Não houve e não haverá sessão extra)*
+
 **Presentes:**
+
 **Escriba:**
 
 **O que se realizou:**
