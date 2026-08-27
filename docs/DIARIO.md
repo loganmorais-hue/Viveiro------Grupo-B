@@ -89,6 +89,18 @@ No primeiro dia estávamos focados em organizar o repositório, logo no sobrou t
 |V-02| Marcos | 16 |
 |V-08| Marcos | 30 |
 
+---
+## Encontro 5 — 27/08 (aula)
+**Presentes:** *Marcos, Natanael, Samuel, Logan.*
+**Escriba:** *Logan*
+
+**O que se pretendia:** *
+**O que se realizou:** 
+
+| ID | Quem trabalhou | Tempo (min) |
+|---|---|---|
+| | | |
+| | | |
 ## Sessão extra — [data], [duração]
 
 **Como foi combinada:** *(Não houve e não haverá sessão extra)*
