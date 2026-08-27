@@ -1980,35 +1980,61 @@ function iniciar() {
 
 
   /* =====================================================
-     BUSCA
-  ===================================================== */
-
-  var busca =
-    document.getElementById(
-      "busca"
-    );
-
-
-  if (busca) {
-
-    busca.value =
-      estado.busca;
-
-
-    busca.oninput =
-      function(e) {
-
-        estado.busca =
-          e.target.value;
-
-
+   BUSCA
+   ===================================================== */
+var busca = document.getElementById("busca");
+if (busca) {
+    busca.value = estado.busca;
+    busca.oninput = function (e) {
+        estado.busca = e.target.value;
         salvarProgresso();
-
-
         desenharMural();
-      };
-  }
+    };
+}
 
+/* =====================================================
+   PUBLICAR NOVA IDEIA
+   ===================================================== */
+var formPublicar = document.getElementById("form-publicar");
+if (formPublicar) {
+    formPublicar.onsubmit = function (e) {
+        e.preventDefault();
+
+        var titulo = document.getElementById("titulo-novo").value.trim();
+        var resumo = document.getElementById("resumo-novo").value.trim();
+        var tagsStr = document.getElementById("tags-novo").value.trim();
+        var erro = document.getElementById("erro-novo");
+
+        if (titulo === "" || resumo === "" || tagsStr === "") {
+            erro.textContent = "Por favor, preencha todos os campos.";
+            return;
+        }
+        erro.textContent = "";
+
+        var tagsArray = tagsStr.split(",").map(function (t) {
+            return t.trim();
+        }).filter(function (t) {
+            return t !== "";
+        });
+
+        var novaIdeia = {
+            id: Date.now(),
+            titulo: titulo,
+            resumo: resumo,
+            autor: estado.pessoa,
+            data: new Date().toLocaleDateString('pt-BR'),
+            tags: tagsArray,
+            apoios: 0,
+            apoiadoPor: []
+        };
+
+        DADOS.ideias.unshift(novaIdeia);
+        salvarProgresso();
+        desenharMural();
+
+        formPublicar.reset();
+    };
+}
 
   /* =====================================================
      PESSOA
